@@ -67,7 +67,6 @@ public class GameEngineTest {
     }
 
     @Test
-<<<<<<< HEAD
     public void testQuitWithNegativeNumber() {
         engine.setTarget(50);
         GuessResult result = engine.makeGuess(-1);
@@ -81,7 +80,7 @@ public class GameEngineTest {
         engine.setTarget(50);
         engine.makeGuess(-1);
         assertEquals(0, engine.getAttempts());
-=======
+    }
     public void testHintVeryClose() {
         engine.setTarget(50);
         engine.makeGuess(60);
@@ -149,6 +148,5 @@ public class GameEngineTest {
         }
         GuessResult result = engine.makeGuess(55);
         assertFalse(result.getHint().isEmpty());
->>>>>>> f90084d (Add hint system to show proximity after 3 attempts)
     }
 }
