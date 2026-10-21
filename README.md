@@ -5,14 +5,17 @@ Date - 10/20/26
 Branch Structure
 
 1) Dev
-    Changes -
+    Changes - Encouraging messages
 2) feature1
-    Changes -
+    Changes - Quit Feature
+            - User Feedback Messages
+            - Play again loop
 3) feature2
-    Changes -
+    Changes - Max Attempts
+            - Game Over
 4) feature3
-    Changes -
+    Changes - Added Hint Feature
 5) hotfix
-    Changes -
+    Changes - RandomInt Fixes
 6) main
-    Changes - 
+    Changes - Initial Guessing Game
